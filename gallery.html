@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Project Gallery | NC Sitework Specialists LLC</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"/>
+<style>
+:root{--primary:#ffcc00;--secondary:#000;}
+nav,footer{background:var(--secondary);color:#fff;}
+nav a,footer a{color:var(--primary);}
+h2{color:var(--secondary);}
+.gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.5rem;margin-top:2rem;}
+figure{border:1px solid #eee;border-radius:6px;overflow:hidden;background:#fafafa;text-align:center;}
+figure img{width:100%;}
+figcaption{padding:0.75rem;background:var(--secondary);color:var(--primary);}
+</style>
+</head>
+<body>
+<nav class="container-fluid">
+<ul><li><strong>NC Sitework Specialists LLC</strong></li></ul>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="gallery.html">Project Gallery</a></li>
+<li><a href="contact.html" role="button">Contact</a></li>
+</ul>
+</nav>
+<main class="container">
+<h2>Recent Projects & Work Gallery</h2>
+<div class="gallery-grid">
+<figure><img src="YOUR-DALLE-HERO-IMAGE-LINK-HERE" alt="Excavation project Asheville NC"/><figcaption>Excavation Project – Asheville, NC</figcaption></figure>
+<figure><img src="YOUR-DALLE-DRAINAGE-IMAGE-LINK-HERE" alt="Drainage installation Black Mountain NC"/><figcaption>Drainage Installation – Black Mountain, NC</figcaption></figure>
+<figure><img src="YOUR-DALLE-SLOPE-STABILIZATION-IMAGE-LINK-HERE" alt="Erosion control Weaverville NC"/><figcaption>Erosion Control – Weaverville, NC</figcaption></figure>
+<figure><img src="https://source.unsplash.com/1200x600/?construction,earthworks" alt="Stormwater management Asheville NC"/><figcaption>Stormwater Management – Asheville, NC</figcaption></figure>
+</div>
+</main>
+<footer class="container">
+<small><a href="tel:18287122033">Call (828) 712-2033</a> • <a href="mailto:kevin@digandgrade.com">kevin@digandgrade.com</a></small>
+</footer>
+</body>
+</html>

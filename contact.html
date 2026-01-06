@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Contact | NC Sitework Specialists LLC</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"/>
+<style>
+:root{--primary:#ffcc00;--secondary:#000;}
+nav,footer{background:var(--secondary);color:#fff;}
+nav a,footer a{color:var(--primary);}
+h2,h3{color:var(--secondary);}
+.map{margin-top:2rem;text-align:center;}
+.map img{width:100%;border-radius:6px;}
+</style>
+</head>
+<body>
+<nav class="container-fluid">
+<ul><li><strong>NC Sitework Specialists LLC</strong></li></ul>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="gallery.html">Project Gallery</a></li>
+<li><a href="contact.html" role="button">Contact</a></li>
+</ul>
+</nav>
+<main class="container">
+<h2>Contact Us</h2>
+<p>Call or email us for sitework, excavation, and grading in Asheville and surrounding 30-mile area.</p>
+<p>📞 <a href="tel:18287122033">(828) 712-2033</a><br/>📧 <a href="mailto:kevin@digandgrade.com">kevin@digandgrade.com</a></p>
+<form class="grid">
+<input type="text" placeholder="Your Name" required/>
+<input type="email" placeholder="Your Email" required/>
+<textarea placeholder="Tell us about your project..." rows="4" required></textarea>
+<button type="submit" onclick="event.preventDefault()">Send</button>
+</form>
+<div class="map">
+<h3>Service Area</h3>
+<img src="https://maps.googleapis.com/maps/api/staticmap?center=Asheville,NC&zoom=9&size=600x300&key=YOUR_GOOGLE_MAPS_API_KEY" alt="Static map of Asheville NC service area"/>
+</div>
+</main>
+<footer class="container">
+<small><a href="tel:18287122033">Call (828) 712-2033</a> • <a href="mailto:kevin@digandgrade.com">kevin@digandgrade.com</a></small>
+</footer>
+</body>
+</html>
